@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-forest-green: #2D4635;
+  --color-gold: #B8860B;
+  --color-soft-bg: #F9FBF9;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F4F6F3] text-forest-green;
+  }
+}
+
+@layer components {
+  .glass-nav {
+    @apply backdrop-blur-md bg-white/80 border-b border-forest-green/5;
+  }
+  
+  .btn-3d-gold {
+    @apply bg-gold text-white px-8 py-3 rounded-xl shadow-[0_6px_0_0_#8B6508] active:shadow-none active:translate-y-[6px] transition-all duration-100 font-bold tracking-wider hover:brightness-110;
+  }
+  
+  .btn-3d-green {
+    @apply bg-forest-green text-white px-8 py-3 rounded-xl shadow-[0_6px_0_0_#1E3023] active:shadow-none active:translate-y-[6px] transition-all duration-100 font-bold tracking-wider hover:brightness-110;
+  }
+
+  .card-3d {
+    @apply bg-white rounded-3xl p-8 shadow-[0_15px_0_0_#e5e7eb] border-2 border-[#e5e7eb] hover:shadow-[0_25px_0_0_#d1d5db] hover:-translate-y-2 transition-all duration-300;
+  }
+
+  .inner-shadow {
+    @apply shadow-[inset_0_4px_8px_rgba(0,0,0,0.1)];
+  }
+
+  .box-3d {
+    @apply bg-white rounded-[2rem] shadow-[0_20px_0_0_#2d46351a] border-2 border-forest-green/5;
+  }
+}
