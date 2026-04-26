@@ -52,7 +52,7 @@ export default function CEO() {
           <div className="text-left space-y-8 text-gray-500 leading-relaxed text-lg font-light">
             <p>
               안녕하십니까, 화목연 대표이사입니다. <br /><br />
-              1994년 하나원결혼으로 시작하여 30년이라는 긴 시간 동안 화목연은 대한민국 성혼 문화의 중심에서 고객님들과 함께 걸어왔습니다. 
+              1994년 설립되어 30년이라는 긴 시간 동안 화목연은 대한민국 성혼 문화의 중심에서 고객님들과 함께 걸어왔습니다. 
               우리가 가장 중요하게 여기는 가치는 '사람에 대한 깊은 이해'입니다.
             </p>
             <p>
@@ -64,7 +64,7 @@ export default function CEO() {
               새로운 인연을 꿈꾸는 모든 분께 화목연이 든든한 등대가 되어 드리겠습니다.
             </p>
             <div className="pt-8 text-right">
-              <p className="text-forest-green font-bold text-2xl font-serif">화목연 대표이사 김 인 철(상무)</p>
+              <p className="text-forest-green font-bold text-2xl font-serif">화목연 대표이사 양유진</p>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function CEO() {
               <Award size={32} />
             </div>
             <h4 className="text-xl font-bold text-forest-green">30년의 유산</h4>
-            <p className="text-sm text-gray-400">하나원결혼에서 계승된 압도적인 성혼 데이터와 전문성</p>
+            <p className="text-sm text-gray-400">30년간 축적된 압도적인 성혼 데이터와 전문성</p>
           </div>
           <div className="space-y-6 text-center">
             <div className="w-16 h-16 bg-forest-green text-gold rounded-2xl flex items-center justify-center mx-auto shadow-lg">

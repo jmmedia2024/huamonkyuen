@@ -34,7 +34,7 @@ const services = [
     id: 'saeteomin',
     name: '새터민 성혼',
     eng: 'Saeteomin',
-    desc: '30년 하나원결혼의 노하우를 계승한 국내 최대 새터민 특화 매칭 시스템.',
+    desc: '30년 전통의 노하우를 계승한 국내 최대 새터민 특화 매칭 시스템.',
     path: '/services/saeteomin',
     icon: <Sparkles />,
     image: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1000'

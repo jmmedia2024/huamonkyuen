@@ -3,7 +3,7 @@ import { History, ShieldCheck, Star, Users, ArrowRight, Heart, Sparkles } from '
 
 export default function About() {
   const milestones = [
-    { year: '1994', title: '하나원결혼 설립', desc: '대한민국 성혼 문화의 첫 발걸음' },
+    { year: '1994', title: '성혼 서비스 설립', desc: '대한민국 성혼 문화의 첫 발걸음' },
     { year: '2005', title: '누적 성혼 3,000건 달성', desc: '업계 최고 수준의 정성적 매칭 증명' },
     { year: '2015', title: '노블레스 프리미엄 라인 런칭', desc: '전문직 및 경영인 계층 특화 서비스 도입' },
     { year: '2020', title: '디지털 큐레이션 도입', desc: '빅데이터 기반 정밀 매칭 알고리즘 고도화' },
@@ -29,7 +29,7 @@ export default function About() {
             </h1>
             <div className="w-24 h-1 bg-gold mx-auto rounded-full" />
             <p className="text-white/60 text-xl font-light max-w-3xl mx-auto">
-              화목연은 하나원결혼의 30년 유산을 계승하여 <br />
+              화목연은 30년 전통의 유산을 계승하여 <br />
               더 깊은 통찰과 현대적 감성으로 새로운 성혼 문화를 선도합니다.
             </p>
           </motion.div>

@@ -75,7 +75,7 @@ export default function Home() {
     },
     {
       name: '새터민 성혼',
-      desc: '30년 하나원결혼의 노하우를 계승한 국내 최대 새터민 특화 매칭 시스템.',
+      desc: '30년 전통의 노하우를 계승한 국내 최대 새터민 특화 매칭 시스템.',
       path: '/services/saeteomin',
       icon: <Sparkles className="text-forest-green" />,
       image: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1000'
@@ -200,7 +200,7 @@ export default function Home() {
               미래의 가족이 되기까지
             </h2>
             <p className="text-gray-500 text-lg leading-relaxed font-light">
-              화목연은 단순한 결혼정보업체를 넘어, 인생의 가장 중요한 결정을 돕는 멘토가 되고자 합니다. 하나원결혼의 30년 전통과 현대적 감각의 만남으로 새로운 성혼 문화를 선도합니다.
+              화목연은 단순한 결혼정보업체를 넘어, 인생의 가장 중요한 결정을 돕는 멘토가 되고자 합니다. 화목연의 30년 전통과 현대적 감각의 만남으로 새로운 성혼 문화를 선도합니다.
             </p>
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div className="space-y-3">
